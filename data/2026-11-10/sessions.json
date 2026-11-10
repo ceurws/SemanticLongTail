@@ -1,0 +1,180 @@
+{
+ "snapshot": {
+  "run": "2026-11-10 14:38",
+  "newest_page": "2026-11-09 21:25",
+  "host_script_version": "2026-11-10"
+ },
+ "volumes": 4324,
+ "volumes_with_sessions": 2628,
+ "headings": 9118,
+ "distinct_texts": 5987,
+ "heading_elements": {
+  "h3": 2525,
+  "span": 48,
+  "h4": 17,
+  "h3+h4": 12,
+  "h2": 10,
+  "h2+h3": 8,
+  "h3+span": 7,
+  "h3+p": 1
+ },
+ "sessions_per_volume": {
+  "2": 780,
+  "3": 557,
+  "1": 421,
+  "4": 309,
+  "5": 196,
+  "6": 101,
+  "7": 74,
+  "11-19": 69,
+  "8": 48,
+  "9": 36,
+  "10": 28,
+  "20+": 9
+ },
+ "papers_per_heading": {
+  "3": 1632,
+  "4": 1253,
+  "2": 1195,
+  "5": 833,
+  "1": 804,
+  "6": 684,
+  "7": 416,
+  "8": 341,
+  "0": 271,
+  "9": 250,
+  "10": 202,
+  "30+": 169,
+  "11": 167,
+  "12": 146,
+  "13": 130,
+  "15": 94,
+  "14": 80,
+  "16": 73,
+  "19": 53,
+  "18": 50,
+  "17": 49,
+  "20": 38,
+  "21": 33,
+  "22": 27,
+  "23": 27,
+  "24": 25,
+  "25": 22,
+  "26": 15,
+  "27": 15,
+  "28": 13,
+  "29": 12
+ },
+ "consecutive_headings_pairs": 223,
+ "consecutive_headings_volumes": 162,
+ "consecutive_headings_since_4000": [
+  4003,
+  4008,
+  4024,
+  4031,
+  4082,
+  4117,
+  4136,
+  4228,
+  4244,
+  4269,
+  4304
+ ],
+ "facets": {
+  "theme": 3008,
+  "slot+theme": 2361,
+  "kind": 1497,
+  "acronym+theme": 637,
+  "kind+theme": 561,
+  "slot": 397,
+  "slot+kind": 209,
+  "none": 190,
+  "slot+kind+theme": 138,
+  "slot+acronym+theme": 81,
+  "kind+acronym+theme": 14,
+  "organizers+theme": 10,
+  "kind+acronym": 5,
+  "slot+organizers+theme": 5,
+  "slot+organizers": 3,
+  "acronym+organizers+theme": 1,
+  "organizers": 1
+ },
+ "kind_words": {
+  "extended abstract": {
+   "headings": 59,
+   "volumes": 58
+  },
+  "work in progress": {
+   "headings": 21,
+   "volumes": 20
+  },
+  "late breaking": {
+   "headings": 14,
+   "volumes": 13
+  },
+  "short": {
+   "headings": 474,
+   "volumes": 422
+  },
+  "invited": {
+   "headings": 370,
+   "volumes": 359
+  },
+  "regular": {
+   "headings": 296,
+   "volumes": 269
+  },
+  "poster": {
+   "headings": 268,
+   "volumes": 248
+  },
+  "keynote": {
+   "headings": 232,
+   "volumes": 223
+  },
+  "full": {
+   "headings": 180,
+   "volumes": 177
+  },
+  "doctoral": {
+   "headings": 136,
+   "volumes": 134
+  },
+  "long": {
+   "headings": 112,
+   "volumes": 110
+  },
+  "demo": {
+   "headings": 112,
+   "volumes": 107
+  },
+  "abstract": {
+   "headings": 81,
+   "volumes": 71
+  },
+  "position": {
+   "headings": 62,
+   "volumes": 57
+  },
+  "preface": {
+   "headings": 45,
+   "volumes": 45
+  },
+  "tutorial": {
+   "headings": 43,
+   "volumes": 40
+  },
+  "phd": {
+   "headings": 32,
+   "volumes": 31
+  },
+  "student": {
+   "headings": 20,
+   "volumes": 19
+  },
+  "panel": {
+   "headings": 19,
+   "volumes": 19
+  }
+ }
+}

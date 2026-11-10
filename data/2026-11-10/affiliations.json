@@ -1,0 +1,41 @@
+{
+ "snapshot": {
+  "run": "2026-11-10 14:38",
+  "newest_page": "2026-11-09 21:25",
+  "host_script_version": "2026-11-10"
+ },
+ "volumes": 4324,
+ "volumes_with_editors": 3749,
+ "marker_after_name": {
+  "asterisks": 2743,
+  "sup": 419,
+  "other": 310,
+  "numbers": 122,
+  "symbols": 81,
+  "none": 74
+ },
+ "block_after_editors": {
+  "symbol lines": 2838,
+  "sup lines": 409,
+  "none": 369,
+  "number lines": 133
+ },
+ "agreement": 3323,
+ "agreement_by_kind": {
+  "symbols": 2805,
+  "sup": 400,
+  "numbers": 118
+ },
+ "lines_per_block": {
+  "3": 922,
+  "4": 846,
+  "5": 552,
+  "2": 334,
+  "6": 285,
+  "7": 137,
+  "10+": 125,
+  "8": 85,
+  "9": 64,
+  "1": 30
+ }
+}
