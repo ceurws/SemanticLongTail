@@ -1,0 +1,127 @@
+% SemanticLongTail — technical report (skeleton)
+% Open source at https://github.com/ceurws/SemanticLongTail
+%
+% Target: technical report on Zenodo. Not peer-reviewed.
+% Discussion: https://github.com/ceurws/semantify/discussions/76
+%
+% CEUR-WS 1-column style (ceurart). Do NOT use the twocolumn / hf options.
+% The report follows the CEUR-WS Policy on AI-Assisting Tools although it is
+% not published via CEUR-WS; see AGENTS.md.
+%
+% Sections are intentionally EMPTY until the authors write them.
+% The report must be self-contained: every term, concept, walk and method
+% step is defined in the text; links only point to further material.
+%
+\documentclass{ceurart}
+% typographical quoting
+\newcommand{\tquote}[1]{``#1''}
+% footnote links
+\newcommand{\footnotelink}[2]{\href{#1}{#2}\footnote{#1}}
+\sloppy
+
+\begin{document}
+
+%% Rights management information (CC-BY is the CEUR-WS default)
+\copyrightyear{2026}
+\copyrightclause{Copyright for this paper by its authors.
+  Use permitted under Creative Commons License Attribution 4.0
+  International (CC BY 4.0).}
+
+%% Conference information
+\conference{Technical report, 2026}
+
+%% Title
+% Working title, to be finalized by the authors.
+\title{The Semantic Long Tail: what 25 years of CEUR-WS volume pages say beyond their tags}
+\tnotemark[1]
+\tnotetext[1]{Technical report. This version has not been peer-reviewed.}
+
+%% Authors
+% Confirmed authors only. ORCIDs taken from the media wiki scholar pages.
+% Further co-authors are NOT listed until participation is confirmed.
+% AI agents are never authors (CEUR-WS HOWTOSUBMIT FAQ 15).
+\author[1,2]{Wolfgang Fahl}[%
+orcid=0000-0002-0821-6995,
+email=wf@bitplan.com,
+]
+\cormark[1]
+\address[1]{RWTH Aachen University, Computer Science i5, Aachen, Germany}
+\address[2]{BITPlan GmbH, Willich, Germany}
+\cortext[1]{Corresponding author.}
+
+%% Abstract (author-provided text).
+%% The abstract environment of ceurart is verbatim: its first line must be
+%% text, a comment-only first line makes it miss \end{abstract}.
+\begin{abstract}
+Abstract to be written by the authors.
+\end{abstract}
+
+%% Keywords
+\begin{keywords}
+% TODO(authors)
+\end{keywords}
+
+\maketitle
+
+\section{Introduction}\label{sec:introduction}
+% TODO(authors)
+
+\section{Background}\label{sec:background}
+% TODO(authors): the CEUR-WS volume page and its tags, the Vol-XXX template
+% and its versions, the three layers marked, conventional and deduced,
+% graph walk and PentaLink; define every term used later.
+
+\section{Prior Art}\label{sec:priorart}
+% TODO(authors): the semantification papers of 2023 and 2026, the SWJ
+% submission of 2024 and its reviews, prior art on graph walks and
+% PentaLinks, related conversions of proceedings pages.
+
+\section{Research Question}\label{sec:rq}
+% TODO(authors): the open question in the authors' own words; why the
+% concepts are found, not given.
+
+\section{Data}\label{sec:data}
+% TODO(authors): the population of volume pages and papers, the snapshot
+% date, the share of volumes per template version.
+% No CEUR-WS pages or PDFs are redistributed; see data/README.md.
+
+\section{Method}\label{sec:method}
+% TODO(authors): the residue, clustering and counting; the graph walk per
+% concept and the forks it shows; competency questions as named queries
+% against the endpoint; sharpening of the ontology per round; the agentic
+% work and the provenance notation of the repository are described here,
+% in the text.
+
+\section{Concepts Found}\label{sec:concepts}
+% TODO(authors): one subsection per round, each with the concept, its walk,
+% its counts, the questions it raised, the ontology change and what the
+% round left unexplained.
+
+\section{Disambiguation Needs}\label{sec:disambiguation}
+% TODO(authors): the forks counted over all volumes: slug with several
+% pids, slug with no pid, pid depending on time.
+
+\section{Production State}\label{sec:production}
+% TODO(authors): the state of the tooling on ceur-ws.org at a stated date;
+% the frozen release the report refers to.
+
+\section{Threats to Validity}\label{sec:threats}
+% TODO(authors)
+
+\section{Conclusion}\label{sec:conclusion}
+% TODO(authors)
+
+%% Declaration on Generative AI (required by CEUR-WS, see
+%% https://ceur-ws.org/GenAI/Policy.html and https://ceur-ws.org/GenAI/Taxonomy.html).
+%% Finalized by the authors from PROVENANCE.md before release.
+%% Must name every tool and map each contribution to a taxonomy category.
+%% Agents used as research instruments for the method are described in
+%% Section Method and named here as such, not as writing assistance.
+\section*{Declaration on Generative AI}
+% TODO(authors)
+
+%% Bibliography
+\nocite{ceurws2024genaipolicy,ceurws2024genaitaxonomy}
+\bibliography{references}
+
+\end{document}
