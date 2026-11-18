@@ -1,0 +1,173 @@
+{
+ "version": "pyCEURsemantify 0.0.8 2026-10-28",
+ "snapshot": "1a8d36cc89 2026-11-18 10:00:06 +0100",
+ "run": "2026-11-18 13:40",
+ "volumes": 420,
+ "per_status": {
+  "skipped": 21,
+  "generated": 399
+ },
+ "per_year": {
+  "1994": {
+   "generated": 1,
+   "failed": 0,
+   "skipped": 0
+  },
+  "1995": {
+   "generated": 1,
+   "failed": 0,
+   "skipped": 0
+  },
+  "1998": {
+   "generated": 1,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2010": {
+   "generated": 1,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2011": {
+   "generated": 1,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2012": {
+   "generated": 2,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2013": {
+   "generated": 4,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2014": {
+   "generated": 17,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2015": {
+   "generated": 187,
+   "failed": 0,
+   "skipped": 7
+  },
+  "2024": {
+   "generated": 2,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2025": {
+   "generated": 52,
+   "failed": 0,
+   "skipped": 0
+  },
+  "2026": {
+   "generated": 130,
+   "failed": 0,
+   "skipped": 3
+  },
+  "none": {
+   "generated": 0,
+   "failed": 0,
+   "skipped": 11
+  }
+ },
+ "year_sources": {
+  "tree": 399,
+  "publication-inferred": 10,
+  "none": 11
+ },
+ "seconds": 186.5,
+ "seconds_per_volume": 0.44,
+ "volumes_in_www": 4332,
+ "estimate_hours_all": 0.53,
+ "failures": [],
+ "skips": [
+  {
+   "volume": 15,
+   "message": "<www>/Vol-15: no event start date, the volume has no year"
+  },
+  {
+   "volume": 16,
+   "message": "<www>/Vol-16: no event start date, the volume has no year"
+  },
+  {
+   "volume": 17,
+   "message": "<www>/Vol-17: no event start date, the volume has no year"
+  },
+  {
+   "volume": 18,
+   "message": "<www>/Vol-18: no event start date, the volume has no year"
+  },
+  {
+   "volume": 19,
+   "message": "<www>/Vol-19: no event start date, the volume has no year"
+  },
+  {
+   "volume": 20,
+   "message": "<www>/Vol-20: no event start date, the volume has no year"
+  },
+  {
+   "volume": 21,
+   "message": "<www>/Vol-21: no event start date, the volume has no year"
+  },
+  {
+   "volume": 22,
+   "message": "<www>/Vol-22: no event start date, the volume has no year"
+  },
+  {
+   "volume": 23,
+   "message": "<www>/Vol-23: no event start date, the volume has no year"
+  },
+  {
+   "volume": 24,
+   "message": "<www>/Vol-24: no event start date, the volume has no year"
+  },
+  {
+   "volume": 25,
+   "message": "<www>/Vol-25: no event start date, the volume has no year"
+  },
+  {
+   "volume": 1332,
+   "message": "<www>/Vol-1332: no event start date, the volume has no year"
+  },
+  {
+   "volume": 1337,
+   "message": "<www>/Vol-1337: no event start date, the volume has no year"
+  },
+  {
+   "volume": 1432,
+   "message": "<www>/Vol-1432: no event start date, the volume has no year"
+  },
+  {
+   "volume": 1439,
+   "message": "<www>/Vol-1439: no event start date, the volume has no year"
+  },
+  {
+   "volume": 1483,
+   "message": "<www>/Vol-1483: no event start date, the volume has no year"
+  },
+  {
+   "volume": 1488,
+   "message": "<www>/Vol-1488: no event start date, the volume has no year"
+  },
+  {
+   "volume": 2333,
+   "message": "<www>/Vol-2333: no event start date, the volume has no year"
+  },
+  {
+   "volume": 4151,
+   "message": "<www>/Vol-4151: no event start date, the volume has no year"
+  },
+  {
+   "volume": 4181,
+   "message": "<www>/Vol-4181: no event start date, the volume has no year"
+  },
+  {
+   "volume": 4221,
+   "message": "<www>/Vol-4221: no event start date, the volume has no year"
+  }
+ ]
+}
