@@ -1,0 +1,2956 @@
+{
+ "run": "2026-11-18 21:07",
+ "snapshot": "1a8d36cc89",
+ "volumes": 4332,
+ "agreement": {
+  "orig": {
+   "pubdate_compared": 3547,
+   "pubdate_same_year": 3517,
+   "browser_compared": 598,
+   "browser_same_year": 444
+  },
+  "oldest": {
+   "pubdate_compared": 3559,
+   "pubdate_same_year": 3323,
+   "browser_compared": 689,
+   "browser_same_year": 516
+  }
+ },
+ "results": [
+  {
+   "fallback": "orig",
+   "sources": {
+    "pubdate": 3559,
+    "orig": 680,
+    "none": 93
+   },
+   "table": {
+    "2001": 37,
+    "2002": 62,
+    "2003": 66,
+    "2004": 90,
+    "2005": 127,
+    "2006": 169,
+    "2007": 226,
+    "2008": 304,
+    "2009": 432,
+    "2010": 555,
+    "2011": 690,
+    "2012": 823,
+    "2013": 951,
+    "2014": 1114,
+    "2015": 1319,
+    "2016": 1542,
+    "2017": 1775,
+    "2018": 2036,
+    "2019": 2296,
+    "2020": 2529,
+    "2021": 2796,
+    "2022": 3063,
+    "2023": 3313,
+    "2024": 3605,
+    "2025": 3889,
+    "2026": 4146
+   },
+   "exceptions": [
+    {
+     "volume": 1,
+     "reference": 2023,
+     "lookup": 2001
+    },
+    {
+     "volume": 2,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 3,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 4,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 5,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 7,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 8,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 10,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 11,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 12,
+     "reference": 2024,
+     "lookup": 2001
+    },
+    {
+     "volume": 13,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 14,
+     "reference": 2019,
+     "lookup": 2001
+    },
+    {
+     "volume": 53,
+     "reference": 2024,
+     "lookup": 2001
+    },
+    {
+     "volume": 54,
+     "reference": 2010,
+     "lookup": 2001
+    },
+    {
+     "volume": 65,
+     "reference": 2016,
+     "lookup": 2002
+    },
+    {
+     "volume": 67,
+     "reference": 2022,
+     "lookup": 2003
+    },
+    {
+     "volume": 68,
+     "reference": 2022,
+     "lookup": 2003
+    },
+    {
+     "volume": 79,
+     "reference": 2007,
+     "lookup": 2003
+    },
+    {
+     "volume": 148,
+     "reference": 2006,
+     "lookup": 2005
+    },
+    {
+     "volume": 160,
+     "reference": 2023,
+     "lookup": 2005
+    },
+    {
+     "volume": 191,
+     "reference": 2021,
+     "lookup": 2006
+    },
+    {
+     "volume": 201,
+     "reference": 2007,
+     "lookup": 2006
+    },
+    {
+     "volume": 227,
+     "reference": 2024,
+     "lookup": 2007
+    },
+    {
+     "volume": 664,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 669,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 670,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 671,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 801,
+     "reference": 2012,
+     "lookup": 2011
+    },
+    {
+     "volume": 820,
+     "reference": 2012,
+     "lookup": 2011
+    },
+    {
+     "volume": 1105,
+     "reference": 2014,
+     "lookup": 2013
+    },
+    {
+     "volume": 1223,
+     "reference": 2013,
+     "lookup": 2014
+    },
+    {
+     "volume": 1320,
+     "reference": 2014,
+     "lookup": 2015
+    },
+    {
+     "volume": 1346,
+     "reference": 2014,
+     "lookup": 2015
+    },
+    {
+     "volume": 1547,
+     "reference": 2015,
+     "lookup": 2016
+    },
+    {
+     "volume": 2104,
+     "reference": 2017,
+     "lookup": 2018
+    },
+    {
+     "volume": 2105,
+     "reference": 2017,
+     "lookup": 2018
+    },
+    {
+     "volume": 2117,
+     "reference": 2017,
+     "lookup": 2018
+    },
+    {
+     "volume": 2236,
+     "reference": 2019,
+     "lookup": 2018
+    },
+    {
+     "volume": 2290,
+     "reference": 2019,
+     "lookup": 2018
+    },
+    {
+     "volume": 2333,
+     "reference": 2015,
+     "lookup": 2019
+    },
+    {
+     "volume": 2506,
+     "reference": 2020,
+     "lookup": 2019
+    },
+    {
+     "volume": 2509,
+     "reference": 2020,
+     "lookup": 2019
+    },
+    {
+     "volume": 2786,
+     "reference": 2021,
+     "lookup": 2020
+    },
+    {
+     "volume": 2821,
+     "reference": 2020,
+     "lookup": 2021
+    },
+    {
+     "volume": 2836,
+     "reference": 2019,
+     "lookup": 2021
+    },
+    {
+     "volume": 3043,
+     "reference": 2022,
+     "lookup": 2021
+    },
+    {
+     "volume": 3097,
+     "reference": 2021,
+     "lookup": 2022
+    },
+    {
+     "volume": 3102,
+     "reference": 2021,
+     "lookup": 2022
+    },
+    {
+     "volume": 3182,
+     "reference": 2021,
+     "lookup": 2022
+    },
+    {
+     "volume": 3205,
+     "reference": 2020,
+     "lookup": 2022
+    },
+    {
+     "volume": 3356,
+     "reference": 2022,
+     "lookup": 2023
+    },
+    {
+     "volume": 3424,
+     "reference": 2022,
+     "lookup": 2023
+    },
+    {
+     "volume": 3624,
+     "reference": 2022,
+     "lookup": 2024
+    },
+    {
+     "volume": 3684,
+     "reference": 2023,
+     "lookup": 2024
+    },
+    {
+     "volume": 3695,
+     "reference": 2023,
+     "lookup": 2024
+    },
+    {
+     "volume": 3952,
+     "reference": 2024,
+     "lookup": 2025
+    }
+   ],
+   "browser_compared": 598,
+   "browser_differences": [
+    {
+     "volume": 1,
+     "lookup": 2001,
+     "browser": [
+      1995
+     ]
+    },
+    {
+     "volume": 2,
+     "lookup": 2001,
+     "browser": [
+      1996
+     ]
+    },
+    {
+     "volume": 3,
+     "lookup": 2001,
+     "browser": [
+      1996
+     ]
+    },
+    {
+     "volume": 4,
+     "lookup": 2001,
+     "browser": [
+      1996
+     ]
+    },
+    {
+     "volume": 5,
+     "lookup": 2001,
+     "browser": [
+      1996
+     ]
+    },
+    {
+     "volume": 7,
+     "lookup": 2001,
+     "browser": [
+      1996
+     ]
+    },
+    {
+     "volume": 8,
+     "lookup": 2001,
+     "browser": [
+      1997
+     ]
+    },
+    {
+     "volume": 10,
+     "lookup": 2001,
+     "browser": [
+      1998
+     ]
+    },
+    {
+     "volume": 11,
+     "lookup": 2001,
+     "browser": [
+      1998
+     ]
+    },
+    {
+     "volume": 12,
+     "lookup": 2001,
+     "browser": [
+      1998
+     ]
+    },
+    {
+     "volume": 13,
+     "lookup": 2001,
+     "browser": [
+      1998
+     ]
+    },
+    {
+     "volume": 14,
+     "lookup": 2001,
+     "browser": [
+      1998
+     ]
+    },
+    {
+     "volume": 53,
+     "lookup": 2001,
+     "browser": [
+      2002
+     ]
+    },
+    {
+     "volume": 54,
+     "lookup": 2001,
+     "browser": [
+      2002
+     ]
+    },
+    {
+     "volume": 90,
+     "lookup": 2004,
+     "browser": [
+      2003
+     ]
+    },
+    {
+     "volume": 555,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 556,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 557,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 558,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 559,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 560,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 561,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 562,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 563,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 564,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 565,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 566,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 567,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 568,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 569,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 570,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 572,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 573,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 575,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 576,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 577,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 578,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 579,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 580,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 581,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 582,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 583,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 584,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 585,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 586,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 587,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 588,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 589,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 590,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 591,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 592,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 594,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 595,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 596,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 597,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 598,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 599,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 600,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 601,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 602,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 603,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 604,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 605,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 606,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 607,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 608,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 609,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 610,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 611,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 612,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 613,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 614,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 615,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 616,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 617,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 618,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 619,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 620,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 621,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 622,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 623,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 624,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 625,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 626,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 627,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 628,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 629,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 630,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 631,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 632,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 633,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 634,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 635,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 636,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 637,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 638,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 640,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 641,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 642,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 643,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 644,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 645,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 646,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 647,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 648,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 649,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 650,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 651,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 652,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 653,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 654,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 655,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 656,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 657,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 658,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 659,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 660,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 661,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 662,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 663,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 664,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 665,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 666,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 668,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 669,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 670,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 671,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 672,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 673,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 674,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 675,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 676,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 677,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 678,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 679,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 680,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 681,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 682,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 683,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 684,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 685,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 686,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 687,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 688,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 689,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    }
+   ]
+  },
+  {
+   "fallback": "oldest",
+   "sources": {
+    "pubdate": 3559,
+    "oldest": 773,
+    "none": 0
+   },
+   "table": {
+    "1994": 1,
+    "1995": 2,
+    "1996": 3,
+    "1997": 8,
+    "1998": 9,
+    "1999": 18,
+    "2000": 27,
+    "2001": 36,
+    "2002": 53,
+    "2003": 67,
+    "2004": 95,
+    "2005": 126,
+    "2006": 173,
+    "2007": 235,
+    "2008": 330,
+    "2009": 434,
+    "2010": 559,
+    "2011": 704,
+    "2012": 823,
+    "2013": 951,
+    "2014": 1114,
+    "2015": 1319,
+    "2016": 1542,
+    "2017": 1775,
+    "2018": 2036,
+    "2019": 2296,
+    "2020": 2529,
+    "2021": 2796,
+    "2022": 3063,
+    "2023": 3313,
+    "2024": 3605,
+    "2025": 3889,
+    "2026": 4146
+   },
+   "exceptions": [
+    {
+     "volume": 15,
+     "reference": 1999,
+     "lookup": 1998
+    },
+    {
+     "volume": 20,
+     "reference": 1998,
+     "lookup": 1999
+    },
+    {
+     "volume": 26,
+     "reference": 1998,
+     "lookup": 1999
+    },
+    {
+     "volume": 37,
+     "reference": 2000,
+     "lookup": 2001
+    },
+    {
+     "volume": 40,
+     "reference": 2000,
+     "lookup": 2001
+    },
+    {
+     "volume": 51,
+     "reference": 2000,
+     "lookup": 2001
+    },
+    {
+     "volume": 69,
+     "reference": 2002,
+     "lookup": 2003
+    },
+    {
+     "volume": 80,
+     "reference": 2002,
+     "lookup": 2003
+    },
+    {
+     "volume": 92,
+     "reference": 2004,
+     "lookup": 2003
+    },
+    {
+     "volume": 96,
+     "reference": 2003,
+     "lookup": 2004
+    },
+    {
+     "volume": 102,
+     "reference": 2003,
+     "lookup": 2004
+    },
+    {
+     "volume": 103,
+     "reference": 2003,
+     "lookup": 2004
+    },
+    {
+     "volume": 109,
+     "reference": 2002,
+     "lookup": 2004
+    },
+    {
+     "volume": 128,
+     "reference": 2004,
+     "lookup": 2005
+    },
+    {
+     "volume": 130,
+     "reference": 2003,
+     "lookup": 2005
+    },
+    {
+     "volume": 131,
+     "reference": 2004,
+     "lookup": 2005
+    },
+    {
+     "volume": 170,
+     "reference": 2006,
+     "lookup": 2005
+    },
+    {
+     "volume": 175,
+     "reference": 2005,
+     "lookup": 2006
+    },
+    {
+     "volume": 184,
+     "reference": 2004,
+     "lookup": 2006
+    },
+    {
+     "volume": 188,
+     "reference": 2005,
+     "lookup": 2006
+    },
+    {
+     "volume": 191,
+     "reference": 2021,
+     "lookup": 2006
+    },
+    {
+     "volume": 214,
+     "reference": 2005,
+     "lookup": 2006
+    },
+    {
+     "volume": 230,
+     "reference": 2007,
+     "lookup": 2006
+    },
+    {
+     "volume": 246,
+     "reference": 2006,
+     "lookup": 2007
+    },
+    {
+     "volume": 304,
+     "reference": 1995,
+     "lookup": 2007
+    },
+    {
+     "volume": 306,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 307,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 308,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 309,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 310,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 311,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 316,
+     "reference": 2006,
+     "lookup": 2007
+    },
+    {
+     "volume": 317,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 321,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 322,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 323,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 324,
+     "reference": 2008,
+     "lookup": 2007
+    },
+    {
+     "volume": 331,
+     "reference": 2007,
+     "lookup": 2008
+    },
+    {
+     "volume": 451,
+     "reference": 2008,
+     "lookup": 2009
+    },
+    {
+     "volume": 463,
+     "reference": 2008,
+     "lookup": 2009
+    },
+    {
+     "volume": 477,
+     "reference": 2008,
+     "lookup": 2009
+    },
+    {
+     "volume": 503,
+     "reference": 2008,
+     "lookup": 2009
+    },
+    {
+     "volume": 546,
+     "reference": 2007,
+     "lookup": 2009
+    },
+    {
+     "volume": 547,
+     "reference": 2006,
+     "lookup": 2009
+    },
+    {
+     "volume": 562,
+     "reference": 2008,
+     "lookup": 2010
+    },
+    {
+     "volume": 564,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 566,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 578,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 580,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 584,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 589,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 610,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 635,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 692,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 693,
+     "reference": 2009,
+     "lookup": 2010
+    },
+    {
+     "volume": 696,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 697,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 698,
+     "reference": 2011,
+     "lookup": 2010
+    },
+    {
+     "volume": 745,
+     "reference": 2010,
+     "lookup": 2011
+    },
+    {
+     "volume": 801,
+     "reference": 2012,
+     "lookup": 2011
+    },
+    {
+     "volume": 820,
+     "reference": 2012,
+     "lookup": 2011
+    },
+    {
+     "volume": 1105,
+     "reference": 2014,
+     "lookup": 2013
+    },
+    {
+     "volume": 1223,
+     "reference": 2013,
+     "lookup": 2014
+    },
+    {
+     "volume": 1320,
+     "reference": 2014,
+     "lookup": 2015
+    },
+    {
+     "volume": 1346,
+     "reference": 2014,
+     "lookup": 2015
+    },
+    {
+     "volume": 1547,
+     "reference": 2015,
+     "lookup": 2016
+    },
+    {
+     "volume": 2104,
+     "reference": 2017,
+     "lookup": 2018
+    },
+    {
+     "volume": 2105,
+     "reference": 2017,
+     "lookup": 2018
+    },
+    {
+     "volume": 2117,
+     "reference": 2017,
+     "lookup": 2018
+    },
+    {
+     "volume": 2236,
+     "reference": 2019,
+     "lookup": 2018
+    },
+    {
+     "volume": 2284,
+     "reference": 2019,
+     "lookup": 2018
+    },
+    {
+     "volume": 2290,
+     "reference": 2019,
+     "lookup": 2018
+    },
+    {
+     "volume": 2333,
+     "reference": 2015,
+     "lookup": 2019
+    },
+    {
+     "volume": 2506,
+     "reference": 2020,
+     "lookup": 2019
+    },
+    {
+     "volume": 2509,
+     "reference": 2020,
+     "lookup": 2019
+    },
+    {
+     "volume": 2786,
+     "reference": 2021,
+     "lookup": 2020
+    },
+    {
+     "volume": 2821,
+     "reference": 2020,
+     "lookup": 2021
+    },
+    {
+     "volume": 2836,
+     "reference": 2019,
+     "lookup": 2021
+    },
+    {
+     "volume": 3043,
+     "reference": 2022,
+     "lookup": 2021
+    },
+    {
+     "volume": 3097,
+     "reference": 2021,
+     "lookup": 2022
+    },
+    {
+     "volume": 3102,
+     "reference": 2021,
+     "lookup": 2022
+    },
+    {
+     "volume": 3182,
+     "reference": 2021,
+     "lookup": 2022
+    },
+    {
+     "volume": 3205,
+     "reference": 2020,
+     "lookup": 2022
+    },
+    {
+     "volume": 3356,
+     "reference": 2022,
+     "lookup": 2023
+    },
+    {
+     "volume": 3424,
+     "reference": 2022,
+     "lookup": 2023
+    },
+    {
+     "volume": 3624,
+     "reference": 2022,
+     "lookup": 2024
+    },
+    {
+     "volume": 3684,
+     "reference": 2023,
+     "lookup": 2024
+    },
+    {
+     "volume": 3695,
+     "reference": 2023,
+     "lookup": 2024
+    },
+    {
+     "volume": 3952,
+     "reference": 2024,
+     "lookup": 2025
+    }
+   ],
+   "browser_compared": 689,
+   "browser_differences": [
+    {
+     "volume": 1,
+     "lookup": 1994,
+     "browser": [
+      1995
+     ]
+    },
+    {
+     "volume": 2,
+     "lookup": 1995,
+     "browser": [
+      1996
+     ]
+    },
+    {
+     "volume": 15,
+     "lookup": 1998,
+     "browser": [
+      1999
+     ]
+    },
+    {
+     "volume": 16,
+     "lookup": 1998,
+     "browser": [
+      1999
+     ]
+    },
+    {
+     "volume": 17,
+     "lookup": 1998,
+     "browser": [
+      1999
+     ]
+    },
+    {
+     "volume": 26,
+     "lookup": 1999,
+     "browser": [
+      2000
+     ]
+    },
+    {
+     "volume": 66,
+     "lookup": 2002,
+     "browser": [
+      2003
+     ]
+    },
+    {
+     "volume": 91,
+     "lookup": 2003,
+     "browser": [
+      2004
+     ]
+    },
+    {
+     "volume": 92,
+     "lookup": 2003,
+     "browser": [
+      2004
+     ]
+    },
+    {
+     "volume": 93,
+     "lookup": 2003,
+     "browser": [
+      2004
+     ]
+    },
+    {
+     "volume": 94,
+     "lookup": 2003,
+     "browser": [
+      2004
+     ]
+    },
+    {
+     "volume": 125,
+     "lookup": 2004,
+     "browser": [
+      2005
+     ]
+    },
+    {
+     "volume": 169,
+     "lookup": 2005,
+     "browser": [
+      2006
+     ]
+    },
+    {
+     "volume": 170,
+     "lookup": 2005,
+     "browser": [
+      2006
+     ]
+    },
+    {
+     "volume": 171,
+     "lookup": 2005,
+     "browser": [
+      2006
+     ]
+    },
+    {
+     "volume": 172,
+     "lookup": 2005,
+     "browser": [
+      2006
+     ]
+    },
+    {
+     "volume": 226,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 227,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 228,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 229,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 230,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 231,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 232,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 233,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 234,
+     "lookup": 2006,
+     "browser": [
+      2007
+     ]
+    },
+    {
+     "volume": 432,
+     "lookup": 2008,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 433,
+     "lookup": 2008,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 559,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 560,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 561,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 562,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 563,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 564,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 565,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 566,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 567,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 568,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 569,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 570,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 571,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 572,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 573,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 574,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 575,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 576,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 577,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 578,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 579,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 580,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 581,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 582,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 583,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 584,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 585,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 586,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 587,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 588,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 589,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 590,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 591,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 592,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 593,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 594,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 595,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 596,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 597,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 598,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 599,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 600,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 601,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 602,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 603,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 604,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 605,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 606,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 607,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 608,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 609,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 610,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 611,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 612,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 613,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 614,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 615,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 616,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 617,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 618,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 619,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 620,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 621,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 622,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 623,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 624,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 625,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 626,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 627,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 628,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 629,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 630,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 631,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 632,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 633,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 634,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 635,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 636,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 637,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 638,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 639,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 640,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 641,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 642,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 643,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 644,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 645,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 646,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 647,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 648,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 649,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 650,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 651,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 652,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 653,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 654,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 655,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 656,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 657,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 658,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 659,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 660,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 661,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 662,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 663,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 664,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 665,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 666,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 667,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 668,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 669,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 670,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 671,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 672,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 673,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 674,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 675,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 676,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 677,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 678,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 679,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 680,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 681,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 682,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 683,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 684,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 685,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 686,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 687,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 688,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    },
+    {
+     "volume": 689,
+     "lookup": 2010,
+     "browser": [
+      2009
+     ]
+    }
+   ]
+  }
+ ]
+}
