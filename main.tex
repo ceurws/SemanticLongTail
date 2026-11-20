@@ -17,6 +17,8 @@
 \newcommand{\tquote}[1]{``#1''}
 % footnote links
 \newcommand{\footnotelink}[2]{\href{#1}{#2}\footnote{#1}}
+% render SVG figures, needs Inkscape, see the build workflow
+\usepackage{svg}
 \sloppy
 
 \begin{document}
@@ -65,6 +67,18 @@ The semantification of the CEUR-WS publishing infrastructure is a typical long t
 
 \section{Introduction}\label{sec:introduction}
 % TODO(authors)
+
+\begin{figure}[t]
+    \centering
+    \includesvg[width=\linewidth]{images/CoreEntities.svg}
+    \caption{Most relevant entities for scientific publishing (abstract schema). Source: \cite{FahlHLBD27}.}
+    \label{fig:core_entities}
+\end{figure}
+
+Since 1995, CEUR Workshop Proceedings (CEUR-WS) has published more than
+4,300 Volumes and over 84,000 papers as a free online service for publishing
+proceedings of scientific workshops (and smaller conferences) in computer
+science, operated by a team of unpaid volunteers.
 
 \section{Background}\label{sec:background}
 % TODO(authors): the CEUR-WS volume page and its tags, the Vol-XXX template
