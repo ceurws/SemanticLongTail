@@ -80,6 +80,31 @@ The semantification of the CEUR-WS publishing infrastructure is a typical long t
 % TODO(authors): the open question in the authors' own words; why the
 % concepts are found, not given.
 
+Which semantic concepts do 25 years of CEUR-WS volume pages and papers
+contain beyond the model we have, what do they mean, and where does naming
+them require disambiguation?
+
+The question is open: the concepts are found, not given.
+
+Each research question is an issue of the project repository, see the ticket
+by ticket approach in Section~\ref{sec:method}. Table~\ref{tab:rq} shows
+which research question is which issue.
+
+\begin{table}[h]
+\caption{Research questions and their issues in \url{https://github.com/ceurws/SemanticLongTail}}\label{tab:rq}
+\begin{tabular}{lll}
+\hline
+RQ & Issue & Research question \\
+\hline
+RQ1 & \href{https://github.com/ceurws/SemanticLongTail/issues/1}{issue 1} & Round 0: the residue of all volume pages, clustered and counted \\
+RQ2 & \href{https://github.com/ceurws/SemanticLongTail/issues/2}{issue 2} & Concept: the affiliation of an editor as a fact in time \\
+RQ3 & \href{https://github.com/ceurws/SemanticLongTail/issues/3}{issue 3} & Concept: the session heading and its facets \\
+RQ4 & \href{https://github.com/ceurws/SemanticLongTail/issues/4}{issue 4} & Concept: the co-located conference behind the CEURCOLOCATED acronym \\
+RQ5 & \href{https://github.com/ceurws/SemanticLongTail/issues/5}{issue 5} & Concept: the special series of volumes \\
+\hline
+\end{tabular}
+\end{table}
+
 \section{Data}\label{sec:data}
 % TODO(authors): the population of volume pages and papers, the snapshot
 % date, the share of volumes per template version.
@@ -92,13 +117,21 @@ The semantification of the CEUR-WS publishing infrastructure is a typical long t
 % work and the provenance notation of the repository are described here,
 % in the text.
 
-CEUR-WS is an organization that is also available in GitHub. The project that
+CEUR-WS has an organization of the same name, written in lower case, on
+GitHub. The project that
 has been started there for semantification is called semantify at
 \url{https://github.com/ceurws/semantify}, and we have agilely done the
 semantification milestone by milestone. In the milestone for historic volumes,
-the work questions of this work came up, where we decided that we are going to
+the research questions of this work came up, where we decided that we are going to
 do a side project which analyzes the corner and exotic cases that come up.
 These are at \url{https://github.com/ceurws/SemanticLongTail}.
+
+In round 0 we did the year split, so that we generated the JSON-LD files from
+the semantically parsed data, which in turn were the basis for generating the
+individual index.html files, as intended in the semantification. The result is
+thus a completely generated state, for which we can now check how far it
+diverges from or agrees with the original. Exactly from this we then derive
+the corner and exotic cases.
 
 \section{Concepts Found}\label{sec:concepts}
 % TODO(authors): one subsection per round, each with the concept, its walk,
