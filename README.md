@@ -89,9 +89,10 @@ Every issue comment carries its origin as a prefix:
 | 👁️🧑 Author-Name ❓ | the human sees an open question |
 | 👁️🧑 Author-Name ✗ | the human rejects the result |
 
-Only ✓ counts as confirmed. [PROVENANCE.md](PROVENANCE.md) lists every agent
-contribution to the repository; the Declaration on Generative AI is
-finalized by the authors from it.
+Only ✓ counts as confirmed. The git history lists every agent contribution
+to the repository: the commit message names the agent role and the taxonomy
+category or method; the Declaration on Generative AI is finalized by the
+authors from it.
 
 ## AI content policy
 

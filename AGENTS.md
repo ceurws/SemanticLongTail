@@ -35,8 +35,9 @@ permitted subject to attribution.
    from manuscripts without a DOI. A number in the report comes from a
    script in `scripts/` run on a dated snapshot, or from a cited source.
 9. AI agents are **never authors** (CEUR-WS HOWTOSUBMIT FAQ 15).
-10. Every agent contribution is recorded in [PROVENANCE.md](PROVENANCE.md)
-    and in the issues with the provenance notation of the README; the
+10. Every agent contribution is recorded in the git history: the commit
+    message names the agent role and the taxonomy category or method; in
+    the issues the provenance notation of the README is used. The
     **Declaration on Generative AI** is finalized by the authors from that
     record.
 11. The report must be **self-contained**: every term is defined in the text,
