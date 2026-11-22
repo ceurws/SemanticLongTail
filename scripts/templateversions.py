@@ -148,6 +148,66 @@ def features(html: str) -> Dict:
     return result
 
 
+COPYRIGHT = re.compile(r"((?:copyright\s*)?(?:&copy;|©|\(c\))[^<]{0,40}?\d{4}.{0,400}?owners\.?(?:\s*this volume is published by its editors\.?)?)", re.I | re.S)
+GENERATOR = re.compile(r"""<meta[^>]*name\s*=\s*["']?generator["']?[^>]*content\s*=\s*["']([^"']*)""", re.I)
+DESCRIPTION_CEUR = re.compile(r"""<meta[^>]*name\s*=\s*["']?descr?ipt?ion["']?[^>]*content\s*=\s*["'][^"']*CEUR Workshop Proceedings""", re.I)
+SUBMITTED_DATED = re.compile(r"submitted\s+by[^<]{0,160}?,\s*(?:\d|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)", re.I)
+# the boilerplate of the volume pages before the CEUR classes, from a sample of
+# ten volumes, Vol-1 to Vol-558; each is a candidate element of a pre CEUR template
+BOILERPLATE = {
+    "logo": re.compile(r"CEUR-WS-logo", re.I),
+    "css": re.compile(r"ceur-ws\.css", re.I),
+    "header_table": re.compile(r"""<table[^>]*cellspacing\s*=\s*["']?5["']?[^>]*>""", re.I),
+    "font_arial": re.compile(r"""<font[^>]*face\s*=\s*["']?arial""", re.I),
+    "font_blue_5": re.compile(r"""<font[^>]*#0f0ff0""", re.I),
+    "font_grey_-2": re.compile(r"""<font(?=[^>]*#777777)(?=[^>]*size\s*=\s*["']?-2)[^>]*>""", re.I),
+    "font_grey_-1": re.compile(r"""<font(?=[^>]*#777777)(?=[^>]*size\s*=\s*["']?-1)[^>]*>""", re.I),
+    "meta_description_ceur": DESCRIPTION_CEUR,
+    "meta_charset": re.compile(r"""<meta[^>]*charset""", re.I),
+    "submitted_by": re.compile(r"submitted\s+by", re.I),
+    "submitted_by_dated": SUBMITTED_DATED,
+    "copyright_word": re.compile(r"copyright\s*(?:&copy;|©)", re.I),
+    "published_by_editors": re.compile(r"published\s+by\s+its\s+editors", re.I),
+}
+
+
+def copyright_variant(html: str) -> Optional[str]:
+    """
+    get the copyright line of the page with years and whitespace normalized
+
+    Args:
+        html: the page
+
+    Returns:
+        Optional[str]: the normalized copyright line or None
+    """
+    variant = None
+    match = COPYRIGHT.search(html)
+    if match:
+        text = text_of(match.group(1)).lower().replace("©", "&copy;")
+        variant = re.sub(r"\b(19|20)\d\d\b", "YYYY", text)
+    return variant
+
+
+def boilerplate(html: str) -> Dict:
+    """
+    get the boilerplate elements of a page before the CEUR classes
+
+    Args:
+        html: the page
+
+    Returns:
+        Dict: the elements found, the copyright variant and the generator
+    """
+    generator = GENERATOR.search(html)
+    result = {
+        "elements": sorted(name for name, pattern in BOILERPLATE.items() if pattern.search(html)),
+        "copyright": copyright_variant(html),
+        "generator": generator.group(1).split("/")[0].split(" ")[0] if generator else None,
+    }
+    return result
+
+
 def signature(feature: Dict) -> str:
     """
     get the structural signature of criterion C2
@@ -274,6 +334,55 @@ def first_uses(rows: List[Dict]) -> List[Dict]:
     return result
 
 
+def pre_ceur(args, years: Dict[int, Optional[int]]) -> None:
+    """
+    measure the boilerplate of the volumes before the CEUR classes and of the
+    plain volumes after them and write the result
+
+    Args:
+        args: the command line arguments
+        years: year of publication per volume
+    """
+    rows: List[Dict] = []
+    for number, html in volume_pages(args.www):
+        if number > args.last:
+            continue
+        feature = features(html)
+        if number >= args.boundary and feature["layer"] != "plain":
+            continue
+        plate = boilerplate(html)
+        year = years.get(number)
+        elements = [f"doctype:{feature['doctype']}", f"layer:{feature['layer']}"] + plate["elements"]
+        rows.append(
+            {
+                "volume": number,
+                "date": str(year) if year else None,
+                "layer": feature["layer"],
+                "signature": " ".join(elements),
+                "elements": elements,
+                "copyright": plate["copyright"],
+                "generator": plate["generator"],
+            }
+        )
+    signatures = group(rows, "signature")
+    result = {
+        "snapshot": {"commit": args.snapshot, "last_volume": args.last, "boundary": args.boundary, **snapshot(args.www)},
+        "criterion": "volumes before the boundary and plain volumes after it: signature of doctype, layer and the boilerplate elements " + ", ".join(BOILERPLATE),
+        "volumes": len(rows),
+        "after_boundary": [row["volume"] for row in rows if row["volume"] >= args.boundary],
+        "layers": histogram([row["layer"] for row in rows]),
+        "elements": histogram([e for row in rows for e in row["elements"]]),
+        "first_uses": first_uses(rows),
+        "copyright_variants": histogram([row["copyright"] for row in rows]),
+        "generators": histogram([row["generator"] for row in rows]),
+        "signatures": len(signatures),
+        "signatures_2_or_more_volumes": sum(1 for g in signatures if g["volumes"] >= 2),
+        "versions": signatures,
+        "rows": [{k: row[k] for k in ("volume", "date", "layer", "signature", "copyright", "generator")} for row in rows],
+    }
+    write_result(result, args.pre_out)
+
+
 def main() -> None:
     """
     measure the template version of every volume page and write the result
@@ -282,10 +391,15 @@ def main() -> None:
     parser.add_argument("--www", required=True, help="www directory of the copy, only read")
     parser.add_argument("--years", required=True, help="yearvotes.json, year of publication per volume")
     parser.add_argument("--last", type=int, required=True, help="last volume of the snapshot")
-    parser.add_argument("--out", required=True, help="result json")
+    parser.add_argument("--out", help="result json of all volumes")
     parser.add_argument("--snapshot", help="commit of the copy the www directory is at")
+    parser.add_argument("--boundary", type=int, help="first volume with CEUR classes; with --pre-out only the volumes before it and the plain ones after it")
+    parser.add_argument("--pre-out", help="result json of the volumes before the boundary")
     args = parser.parse_args()
     years = year_of_publication(args.years)
+    if args.pre_out:
+        pre_ceur(args, years)
+        return
     rows: List[Dict] = []
     for number, html in volume_pages(args.www):
         if number > args.last:
